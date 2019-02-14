@@ -11,7 +11,7 @@
       <header>
         <div class="container">
           <div class="header-left">
-
+            <img src="http://boolean.careers/images/common/logo.png" alt="">
           </div>
           <div class="header-right">
 
