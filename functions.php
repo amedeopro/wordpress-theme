@@ -27,8 +27,8 @@
     function boolean_widgets_init(){
 
       register_sidebar(array(
-        'name'          => _'boolean-sidebar',
-	      'id'            => 'boolean-sidebar',    // ID should be LOWERCASE  ! ! ! 
+        'name' => 'boolean-sidebar',
+	      'id' => 'boolean-sidebar',
       ));
 
     }
