@@ -22,5 +22,20 @@
     add_action('after_setup_theme', 'boolean_setup');
   }
 
+  if (!function_exists('boolean_widgets_init')) {
+
+    function boolean_widgets_init(){
+
+      register_sidebar(array(
+        'name'          => _'boolean-sidebar',
+	      'id'            => 'boolean-sidebar',    // ID should be LOWERCASE  ! ! ! 
+      ));
+
+    }
+
+    add_action('widgets_init', 'boolean_widgets_init');
+
+  }
+
 
  ?>
