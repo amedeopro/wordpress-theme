@@ -56,3 +56,7 @@ header .container .header-right li a {
   font-size: 20px;
 }
 
+.post img {
+  max-width: 100%;
+}
+

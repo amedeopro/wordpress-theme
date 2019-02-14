@@ -7,6 +7,7 @@
         <div class="post">
           <h2>
 
+              <?php the_post_thumbnail(); ?>
               <?php the_title(); ?>
 
             <small>
