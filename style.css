@@ -57,6 +57,7 @@ header{
   color: #565a5c;
 }
 
-.nav_item{
-
+.post h2 small{
+  font-size: 15px;
+  color: grey;
 }
