@@ -14,7 +14,12 @@
             <img src="http://boolean.careers/images/common/logo.png" alt="">
           </div>
           <div class="header-right">
-
+            <?php wp_nav_menu(array(
+              'depth' => 2,
+              'theme_location' => 'header',
+              'container' => false,
+              'menu_class' => 'nav_item'
+            )) ?>
           </div>
             </div>
       </header>

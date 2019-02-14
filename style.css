@@ -36,3 +36,27 @@ header{
   height: 50px;
   margin: 10px 0;
 }
+
+.header-right{
+  float: right;
+  line-height: 70px;
+}
+
+.header-right ul{
+  list-style: none;
+
+  text-align: right;
+}
+
+.header-right li{
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.header-right li a{
+  color: #565a5c;
+}
+
+.nav_item{
+
+}
