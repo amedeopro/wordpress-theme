@@ -1,72 +1,58 @@
-/*
-Theme Name: Boolean Theme
-Theme URI: https://boolean.careers
-Author: Amedeo Pro
-Author URI: https://wordpress.org/
-Description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-Requires at least: WordPress 4.9.6
-Version: 1.2
-License: GNU General Public License v2 or later
-License URI: LICENSE
-Text Domain: twentynineteen
-Tags: dev, html, php
-
-*/
-
-h1{
+h1 {
   color: red;
 }
 
-header{
-    width: 100%;
-    height: 70px;
-    border-bottom: 1px solid lightgrey;
+header {
+  width: 100%;
+  height: 70px;
+  border-bottom: 1px solid lightgrey;
 }
 
-.container{
+header .container {
   height: 100%;
 }
 
-.header-left, .header-right{
+header .container .header-left,
+header .container .header-right {
   float: left;
   height: 100%;
 }
 
-.container .header-left img{
+header .container .header-left img {
   height: 50px;
   margin: 10px 0;
 }
 
-.header-right{
+header .container .header-right {
   float: right;
   line-height: 70px;
 }
 
-.header-right ul{
+header .container .header-right ul {
   list-style: none;
-
   text-align: right;
 }
 
-.header-right li{
+header .container .header-right li {
   display: inline-block;
   margin: 0 20px;
 }
 
-.header-right li a{
+header .container .header-right li a {
   color: #565a5c;
 }
 
-.post{
+.post {
   margin: 40px 0;
   border-bottom: 1px solid lightgrey;
 }
 
-.post h2 small{
+.post h2 small {
   font-size: 15px;
   color: grey;
 }
 
-.post h3{
+.post h3 {
   font-size: 20px;
 }
+
