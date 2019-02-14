@@ -16,7 +16,7 @@
     function boolean_setup(){
       register_nav_menus(array(
         'header' => 'header'
-      ))
+      ));
     }
 
     add_action('after_setup_theme', 'boolean_setup');
